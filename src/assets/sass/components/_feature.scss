@@ -1,0 +1,20 @@
+.feature {
+    .primary-heading {
+        margin-bottom: 0.93rem;
+    }
+
+    .heading {
+        .secondary-heading {
+            margin-bottom: 5rem;
+        }
+    }
+    .feaInfo{
+        .secondary-para{
+            color : $pri-para-color;
+        }
+    }
+
+    .mb-80 {
+        margin-bottom: 5rem;
+    }
+}
