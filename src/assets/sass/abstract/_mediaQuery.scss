@@ -1,0 +1,13 @@
+
+$media-mobile:  "all and (max-width-600px)";
+
+
+
+
+@media #{$media-mobile}{
+    .headerSec{
+        .imp-fluid{
+            width:100%
+        }
+    }
+}
