@@ -9,6 +9,9 @@ import { InspirationComponent } from './components/inspiration/inspiration.compo
 import { FeatureComponent } from './components/feature/feature.component';
 import { FeaHeaderComponent } from './components/fea-header/fea-header.component';
 import { FeaMainComponent } from './components/fea-main/fea-main.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FooterHeaderComponent } from './components/footer-header/footer-header.component';
+import { FooterInfoComponent } from './components/footer-info/footer-info.component';
 
 
 @NgModule({
@@ -19,7 +22,10 @@ import { FeaMainComponent } from './components/fea-main/fea-main.component';
     InspirationComponent,
     FeatureComponent,
     FeaHeaderComponent,
-    FeaMainComponent
+    FeaMainComponent,
+    FooterComponent,
+    FooterHeaderComponent,
+    FooterInfoComponent
     
   ],
   imports: [
