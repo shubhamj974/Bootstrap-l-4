@@ -31,4 +31,9 @@
             border-radius: 0.31rem;
         }
     }
+    .img-fluid{
+        @media all and (max-width : 600px){
+            width: 100%;
+        }
+    }
 }
